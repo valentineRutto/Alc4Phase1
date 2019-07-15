@@ -68,6 +68,7 @@ public class MainActivity extends AppCompatActivity implements BaseContract.View
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, AboutAlc.class);
                 startActivity(intent);
+
             }
         });
 

@@ -12,8 +12,8 @@
         android:id="@+id/img"
         android:layout_width="match_parent"
         android:layout_height="300dp"
-        android:layout_marginBottom="8dp"
-        android:src="@drawable/val"
+        android:layout_marginBottom="28dp"
+        android:src="@drawable/linkedinprof"
         app:layout_constraintBottom_toTopOf="@+id/name"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -24,41 +24,40 @@
         android:id="@+id/view"
         android:layout_width="match_parent"
         android:layout_height="5dp"
+        android:layout_marginBottom="28dp"
         android:background="@color/colorDivider"
         app:layout_constraintBottom_toTopOf="@+id/track"
-        android:layout_marginBottom="28dp"
         tools:layout_editor_absoluteX="16dp" />
 
     <TextView
         android:id="@+id/name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
         android:text="ValentineRutto"
         android:textAlignment="center"
-        android:textSize="18sp"
-android:textStyle="bold"
         android:textColor="@color/colorSecText"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/view"
-        android:layout_marginBottom="28dp"
         tools:layout_editor_absoluteX="30dp" />
 
     <TextView
         android:id="@+id/track"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
         android:text="Track: Android"
         android:textColor="@color/colorSecText"
         app:layout_constraintBottom_toTopOf="@+id/country"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginBottom="28dp"
-        />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/country"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Country: Kenya"
         android:layout_marginBottom="28dp"
+        android:text="Country: Kenya"
 
         android:textColor="@color/colorSecText"
         app:layout_constraintBottom_toTopOf="@+id/email"
@@ -69,9 +68,9 @@ android:textStyle="bold"
         android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
         android:text="Email: Valentinrutto@gmail.com"
         android:textColor="@color/colorSecText"
-        android:layout_marginBottom="28dp"
 
         app:layout_constraintBottom_toTopOf="@+id/phone"
         app:layout_constraintStart_toStartOf="parent"

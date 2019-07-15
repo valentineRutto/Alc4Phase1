@@ -30,14 +30,12 @@ public class AboutAlc extends AppCompatActivity {
         myWebView.getSettings().setJavaScriptEnabled(true);
         myWebView.setWebViewClient(new MyBrowser());
 
-
         myWebView.postDelayed(new Runnable() {
             @Override
             public void run() {
                 myWebView.loadUrl(url);
             }
         }, 500);
-
 
     }
 
